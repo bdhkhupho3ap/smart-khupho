@@ -26,6 +26,8 @@ export const supabase = supabaseInstance;
 
 const DATA_FILE = path.join(process.cwd(), "data.json");
 
+let dbCache: DatabaseState | null = null;
+
 
 export interface DatabaseState {
   residents: Resident[];
@@ -800,6 +802,9 @@ export const SEED_GIS_FEATURES: GisFeature[] = [
 ];
 
 export function loadDatabase(): DatabaseState {
+  if (dbCache) {
+    return dbCache;
+  }
   const DEFAULT_GROUPS = [
     "Đảng viên", 
     "Đảng viên 213", 
@@ -1046,14 +1051,16 @@ export async function preloadDatabaseFromSupabase(): Promise<void> {
 
     isSupabaseTableAvailable = true;
     if (data && data.data) {
+      const dbState = data.data as DatabaseState;
+      dbCache = dbState; // Cache in memory
       console.log("Database successfully synchronized from Supabase! Updating local data.json...");
       try {
-        let str = JSON.stringify(data.data, null, 2);
+        let str = JSON.stringify(dbState, null, 2);
         str = str.replace(/An Phú, TP\. Thủ Đức, TP\.HCM/gi, "Phường An Phú, TP. Hồ Chí Minh");
         fs.writeFileSync(DATA_FILE, str, "utf-8");
         console.log("Local data.json cache updated successfully from Supabase.");
-      } catch (writeErr) {
-        console.warn("Failed to write updated database to local data.json cache:", writeErr);
+      } catch (writeErr: any) {
+        console.warn("Failed to write updated database to local data.json cache (expected in serverless):", writeErr.message || writeErr);
       }
     } else {
       console.log("No existing database state found on Supabase. Uploading the initial local seed state...");
@@ -1067,12 +1074,19 @@ export async function preloadDatabaseFromSupabase(): Promise<void> {
 }
 
 export function saveDatabase(data: DatabaseState) {
+  dbCache = data; // Update in-memory cache
   try {
     let str = JSON.stringify(data, null, 2);
     str = str.replace(/An Phú, TP\. Thủ Đức, TP\.HCM/gi, "Phường An Phú, TP. Hồ Chí Minh");
-    fs.writeFileSync(DATA_FILE, str, "utf-8");
     
-    // Background async sync to Supabase
+    // Attempt local file write, but ignore read-only failures in serverless environments
+    try {
+      fs.writeFileSync(DATA_FILE, str, "utf-8");
+    } catch (writeErr: any) {
+      console.warn("Local filesystem write bypassed (expected in read-only serverless environment):", writeErr.message || writeErr);
+    }
+    
+    // Background async sync to Supabase (always runs)
     syncToSupabase(data).catch(err => {
       console.warn("Async Supabase backup sync bypassed or failed:", err);
     });

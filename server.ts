@@ -3273,4 +3273,13 @@ async function startServer() {
   });
 }
 
-startServer();
+if (process.env.VERCEL !== "1") {
+  startServer();
+} else {
+  // In Vercel serverless environment, still preload database once on boot!
+  preloadDatabaseFromSupabase().catch(err => {
+    console.warn("Vercel boot preloading failed:", err);
+  });
+}
+
+export default app;
