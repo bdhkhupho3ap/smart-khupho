@@ -977,6 +977,10 @@ export function loadDatabase(): DatabaseState {
 
 export let isSupabaseTableAvailable: boolean | null = null;
 
+export function setSupabaseTableAvailable(val: boolean | null) {
+  isSupabaseTableAvailable = val;
+}
+
 export async function syncToSupabase(dbState: DatabaseState): Promise<void> {
   if (!supabase) {
     console.warn("Supabase backup sync bypassed: client not initialized.");

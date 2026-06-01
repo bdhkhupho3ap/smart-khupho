@@ -319,7 +319,7 @@ app.post("/api/supabase/sync", async (req, res) => {
 
     // Set variable statically/dynamically
     const dbModule = await import("./server_db");
-    dbModule.isSupabaseTableAvailable = true;
+    dbModule.setSupabaseTableAvailable(true);
     
     await syncToSupabase(db);
     res.json({ success: true, message: "Đồng bộ hóa dữ liệu lên Supabase thành công!" });
