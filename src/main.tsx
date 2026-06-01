@@ -15,7 +15,6 @@ const customProxyFetch = function (input: any, init?: any) {
   const BACKEND_URL = "https://ais-pre-n554cra6cbkec4dtmhjpi3-407067520621.asia-southeast1.run.app";
   
   const isStaticExternalHost = 
-    window.location.hostname.includes("vercel.app") || 
     window.location.hostname.includes("github.io") || 
     window.location.hostname.includes("netlify.app") ||
     (window.location.hostname === "localhost" && window.location.port !== "3000" && window.location.port !== "");
