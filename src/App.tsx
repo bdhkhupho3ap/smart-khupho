@@ -43,6 +43,14 @@ export default function App() {
   const [showNewPassword, setShowNewPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
+  // AI Configuration state variables
+  const [showAiConfig, setShowAiConfig] = useState(false);
+  const [aiKey, setAiKey] = useState("");
+  const [maskedAiKey, setMaskedAiKey] = useState("");
+  const [aiConfigError, setAiConfigError] = useState("");
+  const [aiConfigSuccess, setAiConfigSuccess] = useState("");
+  const [aiConfigLoading, setAiConfigLoading] = useState(false);
+
   // Calculate secure effective role based on explicit authorization approval status
   // If canEdit flag is false on the account, force their effective role to "Người xem báo cáo" (Read-only)
   const effectiveRole = (currentUser && currentUser.canEdit !== false) ? activeRole : "Người xem báo cáo";
@@ -188,6 +196,68 @@ export default function App() {
     }
   };
 
+  const fetchAiConfig = async () => {
+    if (!currentUser || !ALLOWED_ROLES_FOR_LOGS.includes(effectiveRole)) return;
+    try {
+      const res = await fetch("/api/config/gemini-key", {
+        headers: {
+          "x-user-email": encodeURIComponent(currentUser.email),
+          "x-user-role": encodeURIComponent(effectiveRole)
+        }
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.hasKey) {
+          setMaskedAiKey(data.maskedKey);
+        } else {
+          setMaskedAiKey("");
+        }
+      }
+    } catch (err) {
+      console.error("Failed to load Gemini API key config:", err);
+    }
+  };
+
+  useEffect(() => {
+    fetchAiConfig();
+  }, [currentUser, effectiveRole, showAiConfig]);
+
+  const handleSaveAiKey = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setAiConfigError("");
+    setAiConfigSuccess("");
+    setAiConfigLoading(true);
+
+    try {
+      const res = await fetch("/api/config/gemini-key", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-user-email": encodeURIComponent(currentUser.email),
+          "x-user-role": encodeURIComponent(effectiveRole)
+        },
+        body: JSON.stringify({ apiKey: aiKey })
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        setAiConfigError(data.error || "Không thể lưu cấu hình API Key.");
+      } else {
+        setAiConfigSuccess("Cấu hình Google AI Studio API Key thành công!");
+        setAiKey("");
+        fetchDatabaseState(); // refresh audit logs
+        setTimeout(() => {
+          setShowAiConfig(false);
+          setAiConfigSuccess("");
+        }, 1500);
+      }
+    } catch {
+      setAiConfigError("Lỗi kết nối máy chủ cấu hình.");
+    } finally {
+      setAiConfigLoading(false);
+    }
+  };
+
   if (!currentUser) {
     return <AuthScreen onLoginSuccess={handleLoginSuccess} />;
   }
@@ -320,21 +390,39 @@ export default function App() {
               </button>
             </div>
             
-            <div className="flex items-center justify-between border-t border-slate-800 pt-1.5 mt-1">
+            <div className="flex items-center justify-between border-t border-slate-800 pt-1.5 mt-1 gap-1 flex-wrap">
               <div className="bg-emerald-500/10 border border-emerald-500/20 px-1.5 py-0.5 rounded text-emerald-400 font-bold text-[8px] truncate">
-                {currentUser.canEdit === false ? "Chỉ Xem (Chờ Duyệt)" : activeRole}
+                {currentUser.canEdit === false ? "Chỉ Xem" : activeRole}
               </div>
-              <button
-                type="button"
-                onClick={() => {
-                  setChangePassError("");
-                  setChangePassSuccess("");
-                  setShowChangePass(true);
-                }}
-                className="text-[9px] text-emerald-400 hover:text-emerald-300 font-bold hover:underline cursor-pointer flex items-center gap-1 transition"
-              >
-                <Key className="h-2.5 w-2.5" /> Đổi mật khẩu
-              </button>
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setChangePassError("");
+                    setChangePassSuccess("");
+                    setShowChangePass(true);
+                  }}
+                  className="text-[9px] text-emerald-400 hover:text-emerald-300 font-bold hover:underline cursor-pointer flex items-center gap-0.5 transition select-none"
+                  title="Thay đổi mật khẩu đăng nhập"
+                >
+                  <Key className="h-2.5 w-2.5" /> Đổi MK
+                </button>
+                {ALLOWED_ROLES_FOR_LOGS.includes(effectiveRole) && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setAiConfigError("");
+                      setAiConfigSuccess("");
+                      setAiKey("");
+                      setShowAiConfig(true);
+                    }}
+                    className="text-[9px] text-emerald-400 hover:text-emerald-300 font-bold hover:underline cursor-pointer flex items-center gap-0.5 transition select-none"
+                    title="Cấu hình Google AI Studio API Key"
+                  >
+                    <PenTool className="h-2.5 w-2.5" /> Cài đặt AI
+                  </button>
+                )}
+              </div>
             </div>
 
             {currentUser.canEdit === false && (
@@ -609,6 +697,76 @@ export default function App() {
                   className="flex-1 py-2 text-center rounded-lg bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition cursor-pointer disabled:opacity-50"
                 >
                   {changePassLoading ? "Đang xử lý..." : "Lưu"}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* RENDER DYNAMIC GEMINI CONFIG OVERLAY MODAL */}
+      {showAiConfig && (
+        <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-100 max-w-sm w-full overflow-hidden animate-in fade-in zoom-in duration-200">
+            {/* Header banner */}
+            <div className="bg-slate-900 text-white p-5 flex items-center gap-3">
+              <span className="p-2 bg-emerald-600 rounded-lg text-white">
+                <PenTool className="h-5 w-5" />
+              </span>
+              <div>
+                <h4 className="text-xs font-extrabold uppercase text-emerald-400 tracking-wider">Cấu hình Hệ thống</h4>
+                <p className="text-sm font-bold text-white leading-tight">Google AI Studio API Key</p>
+              </div>
+            </div>
+
+            <form onSubmit={handleSaveAiKey} className="p-5 space-y-4">
+              <div className="text-[11px] text-gray-500 leading-relaxed font-medium">
+                Cấu hình API Key của bạn để vận hành các dịch vụ thông minh (AI Auto-Align Address, AI Composer).
+                {maskedAiKey && (
+                  <p className="mt-1 text-emerald-600 font-bold">
+                    Trạng thái hiện tại: Đã cấu hình (Mã khóa: {maskedAiKey})
+                  </p>
+                )}
+              </div>
+
+              {aiConfigError && (
+                <div className="bg-rose-50 border border-rose-100 p-2.5 rounded-lg text-[11px] text-rose-700 font-bold">
+                  ⚠️ {aiConfigError}
+                </div>
+              )}
+
+              {aiConfigSuccess && (
+                <div className="bg-emerald-50 border border-emerald-100 p-2.5 rounded-lg text-[11px] text-emerald-700 font-bold flex items-center gap-1.5 animate-bounce">
+                  <Check className="h-4 w-4 text-emerald-600" /> {aiConfigSuccess}
+                </div>
+              )}
+
+              <div className="space-y-1">
+                <label className="block text-[10px] font-bold text-gray-400 uppercase">API Key (Google Studio / Gemini)</label>
+                <input
+                  type="text"
+                  placeholder="Dán mã khóa AIzaSy..."
+                  required
+                  value={aiKey}
+                  onChange={(e) => setAiKey(e.target.value)}
+                  className="w-full text-xs border border-gray-200 rounded-lg py-2 px-3 focus:outline-emerald-600 focus:ring-0 text-gray-800"
+                />
+              </div>
+
+              <div className="flex gap-2 pt-2 text-xs">
+                <button
+                  type="button"
+                  onClick={() => setShowAiConfig(false)}
+                  className="flex-1 py-2 text-center rounded-lg border border-gray-250 text-gray-500 font-semibold hover:bg-gray-50 transition cursor-pointer"
+                >
+                  Hủy bỏ
+                </button>
+                <button
+                  type="submit"
+                  disabled={aiConfigLoading}
+                  className="flex-1 py-2 text-center rounded-lg bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition cursor-pointer disabled:opacity-50"
+                >
+                  {aiConfigLoading ? "Đang lưu..." : "Lưu cấu hình"}
                 </button>
               </div>
             </form>

@@ -47,6 +47,7 @@ export interface DatabaseState {
   gisStreets?: GisStreet[];
   gisSubzones?: GisSubzone[];
   gisFeatures?: GisFeature[];
+  geminiApiKey?: string;
 }
 
 const DEFAULT_TEMPLATES: DocumentTemplate[] = [
