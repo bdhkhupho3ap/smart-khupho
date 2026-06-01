@@ -1,0 +1,1437 @@
+{
+  "logs": [
+    {
+      "id": "log_1780283553617",
+      "action": "Cấp tài khoản mới: Nguyễn Trung Huy",
+      "details": "Quản lý Nguyễn Lâm Hùng đã cấp tài khoản trực tiếp cho Nguyễn Trung Huy (Trunghuy1990) - Vai trò: Super Admin, Cấp độ sửa đổi: Toàn quyền.",
+      "userName": "Nguyễn Lâm Hùng",
+      "userRole": "Super Admin",
+      "timestamp": "2026-06-01T03:12:33.617Z"
+    },
+    {
+      "id": "log_1779980316462",
+      "action": "Cập nhật lịch/phân công: công tác đảng",
+      "details": "Cập nhật phân bổ công việc chi tiết hoặc bổ sung tài liệu nguồn.",
+      "userName": "Cán bộ quản trị",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:58:36.462Z"
+    },
+    {
+      "id": "log_1779980315549",
+      "action": "Cập nhật lịch/phân công: công tác đảng",
+      "details": "Cập nhật phân bổ công việc chi tiết hoặc bổ sung tài liệu nguồn.",
+      "userName": "Cán bộ quản trị",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:58:35.549Z"
+    },
+    {
+      "id": "log_1779980314980",
+      "action": "Cập nhật lịch/phân công: công tác đảng",
+      "details": "Cập nhật phân bổ công việc chi tiết hoặc bổ sung tài liệu nguồn.",
+      "userName": "Cán bộ quản trị",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:58:34.980Z"
+    },
+    {
+      "id": "log_1779980313779",
+      "action": "Cập nhật lịch/phân công: công tác đảng",
+      "details": "Cập nhật phân bổ công việc chi tiết hoặc bổ sung tài liệu nguồn.",
+      "userName": "Cán bộ quản trị",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:58:33.779Z"
+    },
+    {
+      "id": "log_1779980181886",
+      "action": "Cập nhật lịch/phân công: công tác đảng",
+      "details": "Cập nhật phân bổ công việc chi tiết hoặc bổ sung tài liệu nguồn.",
+      "userName": "Cán bộ quản trị",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:56:21.886Z"
+    },
+    {
+      "id": "log_1779980127777",
+      "action": "Cập nhật lịch/phân công: công tác đảng",
+      "details": "Cập nhật phân bổ công việc chi tiết hoặc bổ sung tài liệu nguồn.",
+      "userName": "Cán bộ quản trị",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:55:27.777Z"
+    },
+    {
+      "id": "log_1779980038254",
+      "action": "Lập lịch công tác mới: công tác đảng",
+      "details": "Thời gian: 2026-05-28T22:00, Địa điểm: Văn phòng Khu phố 3 (Số 12 Đường Thảo Điền)",
+      "userName": "Hệ thống",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T14:53:58.254Z"
+    },
+    {
+      "id": "log_1779975691763",
+      "action": "Cập nhật nhân khẩu Nguyễn Lâm Tuấn a",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Nguyễn Lâm Tuấn",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:41:31.763Z"
+    },
+    {
+      "id": "log_1779975673248",
+      "action": "Xóa nhân khẩu Phan Kiều Vy",
+      "details": "CCCD: 079301014522, Địa chỉ: 56 Hẻm 45 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:41:13.248Z"
+    },
+    {
+      "id": "log_1779975605465",
+      "action": "Cập nhật cơ sở kinh doanh Cơm Tấm Ba Ghiền Chi Nhánh ",
+      "details": "Tên cũ: Cơm Tấm Ba Ghiền Chi Nhánh Khang, Tên mới: Cơm Tấm Ba Ghiền Chi Nhánh . Người đại diện: Nguyễn Văn Đạt",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:40:05.465Z"
+    },
+    {
+      "id": "log_1779974560971",
+      "action": "Cập nhật nhân khẩu Lê Sĩ Hoàng",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Lê Sĩ Hoàng",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:22:40.971Z"
+    },
+    {
+      "id": "log_1779974554894",
+      "action": "Cập nhật nhân khẩu Nguyễn Lâm Hùng",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Nguyễn Lâm Hùng",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:22:34.894Z"
+    },
+    {
+      "id": "log_1779974486444",
+      "action": "Cập nhật nhân khẩu Lê Sĩ Hoàng",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Lê Sĩ Hoàng",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:21:26.444Z"
+    },
+    {
+      "id": "log_1779974154105",
+      "action": "Cập nhật nhân khẩu Nguyễn Trung Huy",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Nguyễn Trung Huy",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:15:54.105Z"
+    },
+    {
+      "id": "log_1779974140141",
+      "action": "Xóa nhân khẩu Nông Văn Bình",
+      "details": "CCCD: 014072045123, Địa chỉ: 76 Đường Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:15:40.141Z"
+    },
+    {
+      "id": "log_1779974040813",
+      "action": "Cập nhật nhân khẩu Nguyễn Trung Huy",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Nguyễn Trung Huy",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T13:14:00.813Z"
+    },
+    {
+      "id": "log_1779971583001",
+      "action": "Cập nhật nhân khẩu Nguyễn Trung Huy",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Nguyễn Trung Huy",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T12:33:03.001Z"
+    },
+    {
+      "id": "log_1779971559619",
+      "action": "Cập nhật nhân khẩu Nguyễn Trung Huy",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Nguyễn Trung Huy",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T12:32:39.619Z"
+    },
+    {
+      "id": "log_1779971500850",
+      "action": "Cập nhật nhân khẩu Lê Sĩ Hoàng",
+      "details": "Thay đổi thông tin nhân khẩu từ gốc: Lê Sĩ Hoàng",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T12:31:40.850Z"
+    },
+    {
+      "id": "log_1779967812108",
+      "action": "Thêm nhân khẩu Nguyễn Trung Huy",
+      "details": "Họ tên: Nguyễn Trung Huy, CCCD: 074090002909, Loại cư trú: Thường trú",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Bí thư Chi bộ",
+      "timestamp": "2026-05-28T11:30:12.108Z"
+    },
+    {
+      "id": "log_1779967675645",
+      "action": "Xóa nhân khẩu Hoàng Ngọc Ly",
+      "details": "CCCD: 079304008764, Địa chỉ: 33/1A Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "userName": "Nghiêm Xuân Quỳnh",
+      "userRole": "Bí thư Chi bộ",
+      "timestamp": "2026-05-28T11:27:55.645Z"
+    },
+    {
+      "id": "log_1779965368208",
+      "action": "Cấp tài khoản mới: Nghiêm Xuân Quỳnh",
+      "details": "Quản lý Nguyễn Lâm Hùng đã cấp tài khoản trực tiếp cho Nghiêm Xuân Quỳnh (quynh1988) - Vai trò: Bí thư Chi bộ, Quyền xử lý: ĐÃ DUYỆT.",
+      "userName": "Nguyễn Lâm Hùng",
+      "userRole": "Trưởng Ban điều hành",
+      "timestamp": "2026-05-28T10:49:28.208Z"
+    },
+    {
+      "id": "log_1",
+      "action": "Khởi tạo hệ thống Smart Khu Phố",
+      "details": "Khởi chạy ban đầu và rà soát đồng bộ hóa nhân khẩu nòng cốt khu phố số hóa.",
+      "userName": "Trưởng ban Nguyễn Lâm Hùng",
+      "userRole": "Trưởng Ban điều hành",
+      "timestamp": "2026-05-26T09:00:00Z"
+    },
+    {
+      "id": "log_2",
+      "action": "Soạn thảo văn bản Kế hoạch",
+      "details": "Điều chỉnh Kế hoạch ra quân Ngày chủ nhật xanh hè 2026 qua AI và lưu trữ.",
+      "userName": "Bí thư Lê Sĩ Hoàng",
+      "userRole": "Bí thư Chi bộ",
+      "timestamp": "2026-05-26T14:20:00Z"
+    },
+    {
+      "id": "log_3",
+      "action": "Thêm nhân khẩu Phạm Ngọc Anh",
+      "details": "Nhập mới hồ sơ tạm trú cho công dân Phạm Ngọc Anh tại căn hộ CC The Vista.",
+      "userName": "Công an Trần Anh Quốc",
+      "userRole": "Công an khu vực",
+      "timestamp": "2026-05-26T16:45:00Z"
+    },
+    {
+      "id": "log_4",
+      "action": "Cấp quyền Chi hội trưởng Phụ Nữ",
+      "details": "Chấp thuận kích hoạt tài khoản Nguyễn Thị Minh đại diện quản trị phân hội Phụ nữ.",
+      "userName": "Quản trị viên Hệ thống",
+      "userRole": "Super Admin",
+      "timestamp": "2026-05-28T09:20:00Z"
+    },
+    {
+      "id": "log_5",
+      "action": "Xem danh sách cư dân Phụ nữ",
+      "details": "Truy vấn và kết xuất dữ liệu bộ lọc thông tin hội viên thuộc chi hội quản lý trực tiếp.",
+      "userName": "Nguyễn Thị Minh",
+      "userRole": "Chi hội trưởng",
+      "timestamp": "2026-05-28T09:22:00Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc_admin",
+      "role": "Super Admin",
+      "email": "admin",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Quản trị viên Hệ thống",
+      "password": "Trunghuy741",
+      "provider": "local",
+      "createdAt": "2026-05-28T08:53:40.670Z"
+    },
+    {
+      "id": "acc_1",
+      "role": "Super Admin",
+      "email": "bdhkhupho3.ap@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Nguyễn Lâm Hùng",
+      "password": "Trunghuy741",
+      "provider": "google",
+      "createdAt": "2026-05-28T08:48:12.056Z"
+    },
+    {
+      "id": "acc_2",
+      "role": "Công an khu vực",
+      "email": "congan.anphu@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Trần Anh Quốc",
+      "password": "123",
+      "provider": "local",
+      "createdAt": "2026-05-28T08:48:12.057Z"
+    },
+    {
+      "id": "acc_3",
+      "role": "Bí thư Chi bộ",
+      "email": "bitu.kp3@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Lê Sĩ Hoàng",
+      "password": "123",
+      "provider": "local",
+      "createdAt": "2026-05-28T08:48:12.057Z"
+    },
+    {
+      "id": "acc_1779958520892",
+      "role": "Trưởng ban công tác Mặt trận",
+      "email": "anhsehua90@mail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Nguyễn Trung Huy",
+      "password": "Khupho3@",
+      "provider": "local",
+      "createdAt": "2026-05-28T08:55:20.892Z"
+    },
+    {
+      "id": "acc_social_1779959065299",
+      "role": "Cán bộ nhập liệu",
+      "email": "ccb.zalo@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Cựu Chiến Binh KP3",
+      "provider": "zalo",
+      "createdAt": "2026-05-28T09:04:25.299Z"
+    },
+    {
+      "id": "acc_phunu",
+      "role": "Chi hội trưởng",
+      "email": "phunu.kp3@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Nguyễn Thị Minh",
+      "password": "123",
+      "provider": "local",
+      "createdAt": "2026-05-28T09:15:00.000Z",
+      "associationGroup": "Phụ nữ"
+    },
+    {
+      "id": "acc_thanhnien",
+      "role": "Chi hội trưởng",
+      "email": "thanhnien.kp3@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Vũ Hoàng Nam",
+      "password": "123",
+      "provider": "local",
+      "createdAt": "2026-05-28T09:16:00.000Z",
+      "associationGroup": "Thanh niên"
+    },
+    {
+      "id": "acc_ccb",
+      "role": "Chi hội trưởng",
+      "email": "ccb.kp3@gmail.com",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Hoàng Văn Nghĩa",
+      "password": "123",
+      "provider": "local",
+      "createdAt": "2026-05-28T09:17:00.000Z",
+      "associationGroup": "CCB"
+    },
+    {
+      "id": "acc_1779965368208",
+      "role": "Bí thư Chi bộ",
+      "email": "quynh1988",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Nghiêm Xuân Quỳnh",
+      "password": "123456",
+      "provider": "local",
+      "createdAt": "2026-05-28T10:49:28.208Z"
+    },
+    {
+      "id": "acc_1780283553617",
+      "role": "Super Admin",
+      "email": "trunghuy1990",
+      "active": true,
+      "canEdit": true,
+      "fullName": "Nguyễn Trung Huy",
+      "password": "123456",
+      "provider": "local",
+      "createdAt": "2026-06-01T03:12:33.617Z",
+      "permissionType": "Toàn quyền"
+    }
+  ],
+  "documents": [],
+  "residents": [
+    {
+      "id": "res_1",
+      "dob": "1960-08-15",
+      "job": "Hưu trí / Cán bộ hưu trí Quân đội kỉ niệm",
+      "cccd": "079085012345",
+      "notes": "Đảng viên kỳ cựu, Trưởng ban Điều hành Khu phố kiêm Phó bí thư Chi bộ.\n[Biên chế quản lý - Đoàn thể: CCB] Bổ nhiệm: [Chi hội trưởng] - Nhiệm vụ: [Phụ trách phong trào thi đua, vận động tham gia hoạt động khu phố] kể từ ngày 28/05/2026.",
+      "gender": "Nam",
+      "groups": [
+        "CCB",
+        "Ban điều hành",
+        "Đảng viên"
+      ],
+      "address": "12 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Nguyễn Lâm Hùng",
+      "religion": "Không",
+      "education": "Đại học quân sự",
+      "ethnicity": "Kinh",
+      "updatedAt": "2026-05-28T13:22:34.894Z",
+      "householdId": "HH001",
+      "phoneNumber": "0908123456",
+      "residenceType": "Thường trú",
+      "specialCategories": [
+        "Viên chức"
+      ],
+      "militaryCategories": [],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_2",
+      "dob": "1998-11-22",
+      "job": "Lập trình viên phần mềm",
+      "cccd": "079203001234",
+      "notes": "Đoàn viên năng nổ, hỗ trợ kỹ thuật số cho Ban điều hành khu phố.",
+      "gender": "Nam",
+      "groups": [
+        "Thanh niên"
+      ],
+      "address": "12 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Nguyễn Lâm Tuấn a",
+      "religion": "Không",
+      "education": "Thạc sĩ Công nghệ",
+      "ethnicity": "Kinh",
+      "updatedAt": "2026-05-28T13:41:31.763Z",
+      "householdId": "HH001",
+      "phoneNumber": "0912345678",
+      "militaryNotes": "",
+      "residenceType": "Thường trú",
+      "specialCategories": [],
+      "militaryCategories": [],
+      "relationWithHeader": "Con"
+    },
+    {
+      "id": "res_3",
+      "dob": "1967-05-18",
+      "job": "Kinh doanh tự do bách hóa",
+      "cccd": "079184001238",
+      "notes": "Chi hội trưởng Chi hội Phụ nữ khu phố, năng nổ trong các việc thiện nguyện xã hội.",
+      "gender": "Nữ",
+      "groups": [
+        "Phụ nữ",
+        "Chữ thập đỏ"
+      ],
+      "address": "45/2 Đường 5, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Trần Thị Mai",
+      "religion": "Phật giáo",
+      "education": "12/12",
+      "ethnicity": "Kinh",
+      "householdId": "HH002",
+      "phoneNumber": "0967888999",
+      "residenceType": "Thường trú",
+      "specialCategories": [],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_4",
+      "dob": "1992-02-14",
+      "job": "Trưởng phòng Nhân sự",
+      "cccd": "079092003456",
+      "notes": "Sinh hoạt Đảng theo Quy định 213 tại địa phương. Ủy viên hội Chữ thập đỏ phường.",
+      "gender": "Nữ",
+      "groups": [
+        "Đảng viên 213",
+        "Chữ thập đỏ"
+      ],
+      "address": "Căn hộ 12.04 CC The Vista, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Phạm Ngọc Anh",
+      "religion": "Không",
+      "education": "Đại học Luật",
+      "ethnicity": "Kinh",
+      "householdId": "HH003",
+      "phoneNumber": "0934112233",
+      "residenceType": "Tạm trú",
+      "specialCategories": [
+        "Viên chức"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_5",
+      "dob": "1975-04-12",
+      "job": "Gia công mỹ nghệ tại nhà",
+      "cccd": "079056001245",
+      "notes": "Bị thương tật chi nhẹ, thuộc đối tượng chính sách khuyết tật cần được hỗ trợ định kỳ.",
+      "gender": "Nam",
+      "groups": [],
+      "address": "89/10 Đường Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Vương Đình Bằng",
+      "religion": "Không",
+      "education": "9/12",
+      "ethnicity": "Kinh",
+      "householdId": "HH004",
+      "phoneNumber": "0909555222",
+      "residenceType": "Thường trú",
+      "specialCategories": [
+        "Người khuyết tật"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_6",
+      "dob": "2018-09-02",
+      "job": "Học sinh tiểu học",
+      "cccd": "079315005511",
+      "notes": "Trẻ em dưới 16 tuổi trong gia đình chính sách khó khăn.",
+      "gender": "Nam",
+      "groups": [],
+      "address": "89/10 Đường Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Vương Chí Hải",
+      "religion": "Không",
+      "education": "Chưa",
+      "ethnicity": "Kinh",
+      "householdId": "HH004",
+      "phoneNumber": "Không có",
+      "residenceType": "Thường trú",
+      "specialCategories": [
+        "Trẻ em"
+      ],
+      "relationWithHeader": "Con"
+    },
+    {
+      "id": "res_7",
+      "dob": "1965-01-30",
+      "job": "Cán bộ kiểm lâm về hưu",
+      "cccd": "079077002341",
+      "notes": "Bí thư Chi bộ Khu phố 3 trực thuộc Phường An Phú, phụ trách chung.\n[Biên chế quản lý - Đoàn thể: CCB] Bổ nhiệm: [Chi hội trưởng] - Nhiệm vụ: [Phụ trách phong trào thi đua, vận động tham gia hoạt động khu phố] kể từ ngày 28/05/2026 (Kiêm nhiệm).",
+      "gender": "Nam",
+      "groups": [
+        "CCB",
+        "Ban biên tập",
+        "Đảng viên"
+      ],
+      "address": "15 Ba Son, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Lê Sĩ Hoàng",
+      "religion": "Không",
+      "education": "Đại học Lâm nghiệp",
+      "ethnicity": "Kinh",
+      "updatedAt": "2026-05-28T13:22:40.971Z",
+      "householdId": "HH005",
+      "phoneNumber": "0903998877",
+      "residenceType": "Thường trú",
+      "specialCategories": [],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_8",
+      "dob": "1988-06-25",
+      "job": "Cảnh sát Phường / Công an phụ trách địa bàn",
+      "cccd": "079045012589",
+      "notes": "Công an phụ trách hộ khẩu và tạm trú của Tổ dân phố 8, 9, 10, Khu phố 3.",
+      "gender": "Nam",
+      "groups": [
+        "Ban điều hành"
+      ],
+      "address": "7 Lương Định Của, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Trần Anh Quốc",
+      "religion": "Không",
+      "education": "Đại học Cảnh sát",
+      "ethnicity": "Kinh",
+      "householdId": "HH006",
+      "phoneNumber": "0977223344",
+      "residenceType": "Tạm trú",
+      "specialCategories": [
+        "Viên chức"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_9",
+      "dob": "1980-12-05",
+      "job": "Quản lý Siêu thị Bách Hóa Xanh",
+      "cccd": "079072005431",
+      "notes": "Ủy viên chi hội Chữ thập đỏ, hỗ trợ rất nhiều về nhu yếu phẩm cho phong trào dân phòng địa phương.",
+      "gender": "Nam",
+      "groups": [
+        "Chữ thập đỏ"
+      ],
+      "address": "24 Đường Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Phạm Quốc Doanh",
+      "religion": "Không",
+      "education": "Đại học Kinh tế",
+      "ethnicity": "Kinh",
+      "householdId": "HH007",
+      "phoneNumber": "0901235432",
+      "residenceType": "Thường trú",
+      "specialCategories": [],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_10",
+      "dob": "1972-04-10",
+      "job": "Ủy viên Thường trực Hội Liên hiệp Phụ nữ Phường An Phú",
+      "cccd": "079165008899",
+      "notes": "Cán bộ phụ trách phong trào thi đua phụ nữ tích cực hẻm 45. Đã lập tài khoản Chi hội trưởng Phụ Nữ.",
+      "gender": "Nữ",
+      "groups": [
+        "Phụ nữ",
+        "Đảng viên"
+      ],
+      "address": "56 Hẻm 45 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Nguyễn Thị Minh",
+      "religion": "Không",
+      "education": "Đại học Sư phạm",
+      "ethnicity": "Kinh",
+      "householdId": "HH008",
+      "phoneNumber": "0909224466",
+      "residenceType": "Thường trú",
+      "specialCategories": [
+        "Viên chức"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_12",
+      "dob": "1994-08-30",
+      "job": "Chuyên viên tư vấn xây dựng hệ tống số",
+      "cccd": "079095018677",
+      "notes": "Bí thư Chi đoàn Thanh niên Khu phố 3, năng nổ và sáng tạo.",
+      "gender": "Nam",
+      "groups": [
+        "Thanh niên",
+        "Đảng viên"
+      ],
+      "address": "101/4 Lương Định Của, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Vũ Hoàng Nam",
+      "religion": "Không",
+      "education": "Thạc sĩ Bách Khoa",
+      "ethnicity": "Kinh",
+      "householdId": "HH009",
+      "phoneNumber": "0977668822",
+      "residenceType": "Thường trú",
+      "specialCategories": [],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_13",
+      "dob": "1954-05-10",
+      "job": "Sĩ quan Biên phòng hưu trí",
+      "cccd": "120054016733",
+      "notes": "Chi hội trưởng Hội Cựu chiến binh kiêm Hội Chữ thập đỏ khu phố, thương binh hạng 3/4.",
+      "gender": "Nam",
+      "groups": [
+        "CCB",
+        "Chữ thập đỏ",
+        "Đảng viên"
+      ],
+      "address": "33/1A Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Hoàng Văn Nghĩa",
+      "religion": "Không",
+      "education": "Đại học Chính trị",
+      "ethnicity": "Kinh",
+      "householdId": "HH010",
+      "phoneNumber": "0903114422",
+      "residenceType": "Thường trú",
+      "specialCategories": [
+        "Người cao tuổi"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_15",
+      "dob": "1940-02-18",
+      "job": "Hưu trí / Cựu thanh niên xung phong",
+      "cccd": "038084012487",
+      "notes": "Người cao tuổi neo đơn, thuộc diện cần chăm sóc trợ cấp xã hội hằng tháng của chi hội Chữ thập đỏ.",
+      "gender": "Nam",
+      "groups": [
+        "CCB",
+        "Chữ thập đỏ"
+      ],
+      "address": "90 Đường 5, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Đặng Quốc Khánh",
+      "religion": "Không",
+      "education": "Trung cấp nông nghiệp",
+      "ethnicity": "Kinh",
+      "householdId": "HH011",
+      "phoneNumber": "0903827154",
+      "residenceType": "Thường trú",
+      "specialCategories": [
+        "Người cao tuổi"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_16",
+      "dob": "1985-07-14",
+      "job": "Giáo viên Tiểu học An Phú",
+      "cccd": "079185012399",
+      "notes": "Đảng viên sinh hoạt chi bộ trường học tư thục, giữ liên hệ 213 tại chi bộ khu phố.",
+      "gender": "Nữ",
+      "groups": [
+        "Đảng viên 213",
+        "Phụ nữ"
+      ],
+      "address": "Căn hộ 8.01 CC Imperial, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Trương Bảo Châu",
+      "religion": "Không",
+      "education": "Đại học Sư phạm",
+      "ethnicity": "Kinh",
+      "householdId": "HH012",
+      "phoneNumber": "0918732154",
+      "residenceType": "Tạm trú",
+      "specialCategories": [
+        "Viên chức"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_17",
+      "dob": "1999-10-10",
+      "job": "Nhân viên pha chế cà phê (Part-time)",
+      "cccd": "072099014521",
+      "notes": "Thanh niên tạm trú hoạt động tự quản, tham gia hỗ trợ phòng cháy chữa cháy khu phố.",
+      "gender": "Nam",
+      "groups": [
+        "Thanh niên"
+      ],
+      "address": "22 Hẻm Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "fullName": "Huỳnh Tấn Sang",
+      "religion": "Không",
+      "education": "Lao động phổ thông",
+      "ethnicity": "Kinh",
+      "householdId": "HH013",
+      "phoneNumber": "0987114422",
+      "residenceType": "Tạm trú",
+      "specialCategories": [],
+      "relationWithHeader": "Chủ hộ"
+    },
+    {
+      "id": "res_iz8ooat_1779967812107",
+      "dob": "2018-02-07",
+      "job": "Cán bộ Không Chuyên trách",
+      "cccd": "074090002909",
+      "notes": "[Biên chế quản lý - Đoàn thể: Ban công tác Mặt trận] Bổ nhiệm: [Trưởng ban công tác Mặt trận] - Nhiệm vụ: [Lãnh đạo, triển khai phong trào Chuyển đổi số và phổ biến công nghệ cộng đồng] kể từ ngày 28/05/2026.",
+      "gender": "Nam",
+      "groups": [
+        "Đảng viên"
+      ],
+      "address": "26/A8, tổ 12,Khu phố 3, An Phú, TP. Hồ Chí Minh",
+      "fullName": "Nguyễn Trung Huy",
+      "religion": "Không",
+      "education": "12/12, trung cấp",
+      "ethnicity": "Kinh",
+      "updatedAt": "2026-05-28T13:15:54.105Z",
+      "householdId": "HH001",
+      "phoneNumber": "0974749660",
+      "militaryNotes": "",
+      "residenceType": "Thường trú",
+      "specialCategories": [],
+      "militaryCategories": [
+        "Quân nhân dự bị hạng nhất"
+      ],
+      "relationWithHeader": "Chủ hộ"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch_1",
+      "title": "Họp Định Kỳ Ban Điều Hành & Mặt Trận Khu Phố",
+      "dateTime": "2026-05-28T19:30",
+      "location": "Văn phòng Khu phố 3 (Hẻm 12 Thảo Điền)",
+      "priority": "Quan trọng",
+      "attendees": "Toàn thể thành viên Ban điều hành, Trưởng ban công tác Mặt trận, Tổ trưởng 10 TDP.",
+      "isMeeting": true,
+      "description": "Nội dung cuộc họp bao gồm: Rà soát đóng góp các loại Quỹ an sinh xã hội, Triển khai phương án phòng chống Sốt xuất huyết mùa mưa cực đoan, Chuẩn bị kế hoạch Quốc tế Thiếu nhi 1/6 cho các cháu thiếu nhi nghèo và chăm ngoan."
+    },
+    {
+      "id": "sch_2",
+      "title": "Đại Hội Chi Bộ Khu Phố 3 Nhiệm Kỳ",
+      "dateTime": "2026-05-30T08:00",
+      "location": "Hội trường Ủy ban nhân dân Phường An Phú",
+      "priority": "Khẩn cấp",
+      "attendees": "Toàn thể Đảng viên đang sinh hoạt tại chi bộ (32 đồng chí chính thức, 12 đồng chí liên lạc 213).",
+      "isMeeting": true,
+      "description": "Kiểm điểm công tác nhiệm kỳ qua, bầu chi ủy khóa mới, đề ra chiến lược xây dựng Khu phố văn hóa, tích hợp công cụ số hóa dữ liệu quản trị tin cậy."
+    },
+    {
+      "id": "sch_3",
+      "title": "Ra Quân Ngày Chủ Nhật Xanh - Dọn Dẹp Hẻm Văn Hóa 12 Thảo Điền",
+      "dateTime": "2026-06-01T07:00",
+      "location": "Trục đường Quốc Hương và các hẻm nội bộ TDP 8, 9, 10",
+      "attendees": "Chi đoàn Thanh niên làm nòng cốt, Hội phụ nữ, Cựu chiến binh và vận động nhân dân toàn hẻm.",
+      "isMeeting": false,
+      "description": "Tổng vệ sinh, xóa bỏ các điểm nóng rác tự phát, cạo xóa quảng cáo bẩn trái phép, khơi thông một số đoạn cống nghẹt nhỏ phòng ngừa mùa mưa lũ ngập úng."
+    },
+    {
+      "id": "sch_4",
+      "title": "Phát Thưởng Khuyến Học Gương Sáng Hiếu Học Hè 2026",
+      "dateTime": "2026-06-02T16:00",
+      "location": "Văn phòng điều hành Khu phố 3",
+      "attendees": "Chi hội trưởng hội khuyến học, các cháu đạt học sinh giỏi cấp Thành phố/Quận học kỳ vừa qua.",
+      "isMeeting": false,
+      "description": "Tặng quà biểu dương tinh thần tự học vượt khó, học bổng xã hội hóa cho các thế hệ em nhỏ tương lai."
+    },
+    {
+      "id": "sch_5",
+      "title": "Chi hội Phụ Nữ: Trực tiếp tuyên truyền vệ sinh Thực phẩm",
+      "dateTime": "2026-06-05T09:00",
+      "location": "Nhà văn hóa / Các ngõ hẻm tập trung cơ sở F&B",
+      "attendees": "Ban thường trực chi hội Phụ nữ, cán bộ quản lý khu phố, chủ các cơ sở kinh doanh ăn uống dốc hẻm.",
+      "isMeeting": false,
+      "description": "Hướng dẫn đăng ký giấy chứng nhận vệ sinh thực phẩm vệ sinh đầy đủ, vận động sử dụng rác hữu cơ thông minh."
+    },
+    {
+      "id": "sch_6",
+      "title": "Tổ chức kiểm tra định kỳ Tác phong phòng chống cháy nổ",
+      "dateTime": "2026-06-10T14:30",
+      "location": "Trực quan kiểm tra tại các cơ sở kinh doanh đông đúc hẻm TDP 8",
+      "priority": "Khẩn cấp",
+      "attendees": "Công an khu vực Trần Anh Quốc phối hợp ban PCCC phường, Trưởng khu phố Nguyễn Lâm Hùng.",
+      "isMeeting": true,
+      "description": "Kiểm tra thực tế bình cứu hỏa xách tay, lối thoát nạn khẩn cấp và sơ đồ thông thoáng an toàn."
+    },
+    {
+      "id": "sch_1779980038254",
+      "title": "công tác đảng",
+      "dueDate": "2026-05-28",
+      "dateTime": "2026-05-28T22:00",
+      "location": "Văn phòng Khu phố 3 (Số 12 Đường Thảo Điền)",
+      "attendees": "Thành phần: Ban điều hành, Ban công tác Mặt trận, Tổ trưởng TDP",
+      "isMeeting": true,
+      "assignments": [
+        {
+          "id": "task_1779980312948",
+          "note": "Phân công đề xuất bởi AI",
+          "task": "Tổ chức cuộc họp Chi bộ định kỳ để quán triệt và triển khai các nghị quyết, chỉ thị mới của Đảng cấp trên",
+          "status": "Cần làm",
+          "updatedAt": "2026-05-28T14:58:32.948Z",
+          "assigneeName": "Lê Sĩ Hoàng",
+          "assigneeRole": "Bí thư Chi bộ"
+        },
+        {
+          "id": "task_1779980314148",
+          "note": "Phân công đề xuất bởi AI",
+          "task": "Tuyên truyền, vận động các tầng lớp nhân dân và đoàn viên, hội viên tin tưởng, thực hiện tốt đường lối, chủ trương của Đảng",
+          "status": "Cần làm",
+          "updatedAt": "2026-05-28T14:58:34.148Z",
+          "assigneeName": "Nguyễn Trung Huy",
+          "assigneeRole": "Trưởng ban công tác Mặt trận"
+        },
+        {
+          "id": "task_1779980314716",
+          "note": "Phân công đề xuất bởi AI",
+          "task": "Soạn thảo văn bản, nghị quyết chi bộ và cập nhật cơ sở dữ liệu quản lý danh sách đảng viên tại khu phố",
+          "status": "Cần làm",
+          "updatedAt": "2026-05-28T14:58:34.716Z",
+          "assigneeName": "Cựu Chiến Binh KP3",
+          "assigneeRole": "Cán bộ nhập liệu"
+        },
+        {
+          "id": "task_1779980315628",
+          "note": "Phân công đề xuất bởi AI",
+          "task": "Phối hợp tổ chức thực hiện các nội dung công tác dân vận, an sinh xã hội theo định hướng chỉ đạo của Chi bộ",
+          "status": "Cần làm",
+          "updatedAt": "2026-05-28T14:58:35.628Z",
+          "assigneeName": "Nguyễn Lâm Hùng",
+          "assigneeRole": "Trưởng Ban điều hành"
+        }
+      ],
+      "description": "",
+      "externalDocName": "ĐẢNG ỦY PHƯỜNG AN PHÚ.docx",
+      "externalDocContent": "đảng",
+      "externalDocFileSize": "0.02 MB",
+      "externalDocFileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "externalDocFileBase64": "data:application/vnd.openxmlformats-officedocument.wordprocessingml.document;base64,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",
+      "smsNotificationSimulated": false
+    }
+  ],
+  "templates": [
+    {
+      "id": "temp_1",
+      "name": "Thông báo Hành chính",
+      "type": "Thông báo",
+      "structure": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nỦY BAN NHÂN DÂN PHƯỜNG AN PHÚ\nBAN ĐIỀU HÀNH KHU PHỐ 3\n\nTHÔNG BÁO\nVề việc: [Nội dung thông báo]\n\nKính gửi: Toàn thể nhân dân Tổ dân phố ... thuộc Khu phố 3.\n\n[Nội dung chi tiết]\n\nNơi nhận:\n- Như trên;\n- UBND Phường (báo cáo);\n- Lưu: Trưởng KP.\n\nTM. BAN ĐIỀU HÀNH KHU PHỐ\nTRƯỞNG KHU PHỐ",
+      "description": "Mẫu thông báo về các vấn đề dân cư, sinh hoạt, thu phí dự phòng, phòng chống dịch bệnh."
+    },
+    {
+      "id": "temp_2",
+      "name": "Biên bản cuộc họp Chi bộ / Khu phố",
+      "type": "Biên bản họp",
+      "structure": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nBAN ĐIỀU HÀNH KHU PHỐ 3\n\nBIÊN BẢN CUỘC HỌP\nVề việc: [Tên cuộc họp]\n\nHôm nay, lúc [Giờ] ngày [Ngày] tháng [Tháng] năm [Năm]\nTại địa điểm: [Địa điểm học]\nChúng tôi gồm:\nI. Thành phần tham dự:\n- Chủ trì: [Người chủ trì] - Chức vụ: [Chức vụ]\n- Thư ký: [Thư ký]\n- Đại biểu tham dự: [Số lượng/Thành phần]\n\nII. Nội dung cuộc họp:\n[Nội dung bàn bạc, lấy ý kiến]\n\nIII. Quyết nghị cuộc họp:\n[Các ý kiến thống nhất và biểu quyết]\n\nBiên bản kết thúc vào lúc [Giờ] cùng ngày, đã được đọc lại cho mọi người cùng nghe và thống nhất ký tên.\n\nCHỦ TRÌ                                    THƯ KÝ",
+      "description": "Dùng để lập biên bản các cuộc họp dân phố định kỳ, họp Chi bộ, họp Đội tuần tra nhân dân."
+    },
+    {
+      "id": "temp_3",
+      "name": "Báo cáo Tình hình tháng",
+      "type": "Báo cáo tháng",
+      "structure": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nBAN ĐIỀU HÀNH KHU PHỐ 3\n\nBÁO CÁO TÌNH HÌNH HOẠT ĐỘNG THÁNG\nTháng [Số tháng] năm [Năm]\n\nKính gửi: Đảng ủy - UBND Phường An Phú\n\nBan điều hành Khu phố 3 xin báo cáo tình hình hoạt động tháng qua như sau:\n1. Tình hình an ninh chính trị, trật tự an toàn xã hội:\n[Nội dung ANTT]\n2. Công tác quản lý dân số, cư trú:\n[Nội dung dân cư, quản lý tạm trú tạm vắng]\n3. Hoạt động của các hội đoàn thể (CCB, Phụ nữ, Thanh niên, Chữ thập đỏ):\n[Nội dung hoạt động hoạt động đoàn thể]\n4. Công tác an sinh xã hội, chăm lo đối tượng khó khăn:\n[Nội dung an sinh xã hội]\n\nNơi nhận:\n- Như trên;\n- Lưu văn phòng.\n\nTM. BAN ĐIỀU HÀNH KHU PHỐ\nTRƯỞNG KHU PHỐ",
+      "description": "Mẫu báo cáo tiến độ hoạt động địa phương, dân số biến động, phong trào đoàn thể định kỳ."
+    },
+    {
+      "id": "temp_4",
+      "name": "Giấy mời họp dân, đoàn thể",
+      "type": "Giấy mời",
+      "structure": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nBAN ĐIỀU HÀNH KHU PHỐ 3\n\nGIẤY MỜI\nBan điều hành Khu phố 3 kính mời:\nÔng/Bà: [Họ tên khách mời]\nĐịa chỉ: [Địa chỉ]\n\nTới tham dự cuộc họp: [Nội dung cuộc họp]\nThời gian: lúc [Giờ] ngày [Ngày]\nĐịa điểm: Văn phòng Khu phố 3 (Số 12 Đường Thảo Điền)\n\nRất mong Ông/Bà sắp xếp thời gian đến tham dự đúng giờ để cuộc họp đạt kết quả tốt.\n\nTM. BAN ĐIỀU HÀNH KHU PHỐ\nTRƯỞNG KHU PHỐ",
+      "description": "Mẫu giấy mời họp dân phố, họp chi hội chính thức có đóng dấu giáp lai ảo."
+    },
+    {
+      "id": "temp_5",
+      "name": "Kế hoạch ra quân, phong trào",
+      "type": "Kế hoạch",
+      "structure": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nBAN ĐIỀU HÀNH KHU PHỐ 3\n\nKẾ HOẠCH\nVề việc: Tổ chức [Tên phong trào/hoạt động]\n\nI. MỤC ĐÍCH, YÊU CẦU:\n[Nêu mục đích ý nghĩa chương trình]\n\nII. THỜI GIAN, ĐỊA ĐIỂM:\n- Thời gian:\n- Địa điểm:\n\nIII. NỘI DUNG VÀ BIỆN PHÁP THỰC HIỆN:\n[Phân công công việc cụ thể cho từng khối đoàn thể Phụ nữ, Đoàn thanh niên, Cựu chiến binh]\n\nTM. BAN ĐIỀU HÀNH KHU PHỐ\nTRƯỞNG KHU PHỐ",
+      "description": "Mẫu kế hoạch tổ chức phong trào địa phương, tổng vệ sinh, hiến máu nhân đạo, tuyên truyền pháp luật."
+    },
+    {
+      "id": "temp_6",
+      "name": "Quy ước văn hóa Khu phố 3",
+      "type": "Tuyển tập quy ước",
+      "structure": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nỦY BAN NHÂN DÂN PHƯỜNG AN PHÚ\nBAN ĐIỀU HÀNH KHU PHỐ 3\n\nQUY ƯỚC NẾP SỐNG VĂN MINH đô thị\n(Ban hành kèm theo Nghị quyết hội nghị cử tri Khu phố 3)\n\nChương I: Quy tắc giữ gìn vệ sinh môi trường chung\n- Mỗi hộ gia đình tự phân loại rác thải tại nguồn.\n- Không xả rác bừa bãi ra lòng lề đường, ngõ hẻm.\n\nChương II: Đảm bảo văn minh trật tự đô thị\n- Không xây dựng lấn chiếm lòng đường, vỉa hè.\n- Để xe đúng nơi quy định, có người trông coi.\n\nChương III: Ứng xử văn minh tại cộng đồng cư dân\n- Giữ gìn an ninh trật tự sau 22:00 đêm.\n- Hòa giải các tranh chấp nhỏ trong tình làng nghĩa xóm.",
+      "description": "Bản quy ước chuẩn mực nếp sống văn minh, quy tắc an ninh, bảo vệ môi trường chung."
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz_1",
+      "cccd": "079085002412",
+      "name": "Cơm Tấm Ba Ghiền Chi Nhánh ",
+      "notes": "Đạt chuẩn an toàn vệ sinh thực phẩm và chứng nhận phòng cháy chữa cháy năm 2026 đầy đủ.",
+      "status": "Đang hoạt động",
+      "address": "12/2 Đường Thảo Điền, An Phú, TP. Hồ Chí Minh",
+      "ownerName": "Nguyễn Văn Đạt",
+      "phoneNumber": "0963124567",
+      "businessType": "Cửa hàng ăn uống",
+      "employeesCount": 4,
+      "registrationNumber": "GPKD-03158941",
+      "safetyInspectionDate": "2026-03-15"
+    },
+    {
+      "id": "biz_2",
+      "cccd": "079072005431",
+      "name": "Siêu thị Bách Hóa Xanh Thảo Điền",
+      "notes": "Điểm cung ứng nhu yếu phẩm chính cho hẻm Thảo Điền.",
+      "status": "Đang hoạt động",
+      "address": "24 Đường Thảo Điền, An Phú, TP. Hồ Chí Minh",
+      "ownerName": "Phạm Quốc Doanh",
+      "phoneNumber": "0901235432",
+      "businessType": "Cửa hàng tiện lợi",
+      "employeesCount": 8,
+      "registrationNumber": "GPKD-03102456",
+      "safetyInspectionDate": "2026-04-10"
+    },
+    {
+      "id": "biz_3",
+      "cccd": "079069002138",
+      "name": "Nhà thuốc An Phú Khang",
+      "notes": "Hỗ trợ cung cấp bông băng sơ cứu cho tổ công an tuần tra đêm khu phố.",
+      "status": "Đang hoạt động",
+      "address": "89 Đường Quốc Hương, An Phú, TP. Hồ Chí Minh",
+      "ownerName": "Trần Thị Vân",
+      "phoneNumber": "0912384752",
+      "businessType": "Quầy dược phẩm / Y tế",
+      "employeesCount": 2,
+      "registrationNumber": "GPKD-03144892",
+      "safetyInspectionDate": "2026-05-02"
+    },
+    {
+      "id": "biz_4",
+      "cccd": "072099014521",
+      "name": "Cà Phê Sân Vườn Cao Nguyên Hẻm",
+      "notes": "Quán mở nhạc âm lượng nhẹ, đảm bảo trật tự và mỹ quan chung sau 22:00 đêm.",
+      "status": "Đang hoạt động",
+      "address": "22 Hẻm Thảo Điền, An Phú, TP. Hồ Chí Minh",
+      "ownerName": "Huỳnh Tấn Sang",
+      "phoneNumber": "0987114422",
+      "businessType": "Cửa hàng ăn uống",
+      "employeesCount": 3,
+      "registrationNumber": "GPKD-03178521",
+      "safetyInspectionDate": "2026-05-18"
+    },
+    {
+      "id": "biz_5",
+      "cccd": "079077002341",
+      "name": "Cửa Hàng Giặt Ủi Siêu Tốc 247",
+      "notes": "Phương tiện đỗ xe máy cho khách hàng gọn gàng vỉa hè.",
+      "status": "Đang hoạt động",
+      "address": "15 Ba Son, An Phú, TP. Hồ Chí Minh",
+      "ownerName": "Lê Sĩ Hoàng",
+      "phoneNumber": "0903998877",
+      "businessType": "Dịch vụ đời sống",
+      "employeesCount": 1,
+      "registrationNumber": "GPKD-03105524",
+      "safetyInspectionDate": "2026-02-12"
+    },
+    {
+      "id": "biz_6",
+      "cccd": "014072045123",
+      "name": "Bánh Mì Kẹp Thịt Hà Nội Phố",
+      "notes": "Đã tiến hành nộp hồ sơ xin cấp giấy chứng nhận An toàn thực phẩm.",
+      "status": "Chờ cấp phép",
+      "address": "76 Đường Quốc Hương, An Phú, TP. Hồ Chí Minh",
+      "ownerName": "Nông Văn Bình",
+      "phoneNumber": "0944321012",
+      "businessType": "Cửa hàng ăn uống",
+      "employeesCount": 2,
+      "registrationNumber": "Chờ cấp phép",
+      "safetyInspectionDate": "2026-05-25"
+    }
+  ],
+  "gisStreets": [
+    {
+      "id": "ST001",
+      "geom": "LINESTRING(106.7215 10.7985, 106.7225 10.8015, 106.7235 10.8045, 106.7245 10.8075)",
+      "name": "Đường Thảo Điền",
+      "description": "Trục đường chính xuyên qua trung tâm Thảo Điền - An Phú."
+    },
+    {
+      "id": "ST002",
+      "geom": "LINESTRING(106.7205 10.8015, 106.7235 10.8025, 106.7265 10.8035, 106.7295 10.8045)",
+      "name": "Đường Quốc Hương",
+      "description": "Tuyến đường huyết mạch nối Thảo Điền với khu chung cư An Phú."
+    },
+    {
+      "id": "ST003",
+      "geom": "LINESTRING(106.7230 10.7980, 106.7260 10.8010, 106.7290 10.8040)",
+      "name": "Đường Lương Định Của",
+      "description": "Đoạn đường kết nối thương mại của khu cư dân."
+    },
+    {
+      "id": "ST004",
+      "geom": "LINESTRING(106.7265 10.8035, 106.7275 10.8055, 106.7285 10.8075)",
+      "name": "Đường Ba Son",
+      "description": "Tuyến đường ven sông kết nối đô thị mới."
+    }
+  ],
+  "households": [
+    {
+      "id": "HH001",
+      "notes": "Hộ gia đình cách mạng tiêu biểu tại khu phố.",
+      "address": "12 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Nguyễn Lâm Hùng",
+      "phoneNumber": "0908123456"
+    },
+    {
+      "id": "HH002",
+      "notes": "Hộ gia đình hoạt động tích cực, làm nòng cốt công tác phụ nữ hẻm.",
+      "address": "45/2 Đường 5, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Trần Thị Mai",
+      "phoneNumber": "0967888999"
+    },
+    {
+      "id": "HH003",
+      "notes": "Cư dân trẻ văn minh, Đảng viên về giữ liên lạc 213.",
+      "address": "Căn hộ 12.04 CC The Vista, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Phạm Ngọc Anh",
+      "phoneNumber": "0934112233"
+    },
+    {
+      "id": "HH004",
+      "notes": "Gia cảnh khó khăn, cần theo dõi chế độ chính sách người khuyết tật và trẻ em.",
+      "address": "89/10 Đường Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Vương Đình Bằng",
+      "phoneNumber": "0909555222"
+    },
+    {
+      "id": "HH005",
+      "notes": "Gia đình đảng viên gương mẫu tiêu biểu.",
+      "address": "15 Ba Son, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Lê Sĩ Hoàng",
+      "phoneNumber": "0903998877"
+    },
+    {
+      "id": "HH006",
+      "notes": "Cán bộ công an khu vực lưu trú định danh.",
+      "address": "7 Lương Định Của, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Trần Anh Quốc",
+      "phoneNumber": "0977223344"
+    },
+    {
+      "id": "HH007",
+      "notes": "Gia đình kinh doanh tích cực thiện nguyện.",
+      "address": "24 Đường Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Phạm Quốc Doanh",
+      "phoneNumber": "0901235432"
+    },
+    {
+      "id": "HH008",
+      "notes": "Phụ trách đầu mối Chi hội Phụ nữ và con gái học Y.",
+      "address": "56 Hẻm 45 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Nguyễn Thị Minh",
+      "phoneNumber": "0909224466"
+    },
+    {
+      "id": "HH009",
+      "notes": "Cán bộ Đoàn năng động, đại diện người trẻ số hóa.",
+      "address": "101/4 Lương Định Của, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Vũ Hoàng Nam",
+      "phoneNumber": "0977668822"
+    },
+    {
+      "id": "HH010",
+      "notes": "Thương binh gương mẫu, nòng cốt Hội Cựu Chiến Binh khu phố.",
+      "address": "33/1A Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Hoàng Văn Nghĩa",
+      "phoneNumber": "0903114422"
+    },
+    {
+      "id": "HH011",
+      "notes": "Hộ cao tuổi neo đơn khó khăn, cần thăm hỏi định kỳ.",
+      "address": "90 Đường 5, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Đặng Quốc Khánh",
+      "phoneNumber": "0903827154"
+    },
+    {
+      "id": "HH012",
+      "notes": "Hộ tạm trú giáo viên, đóng các quỹ đầy đủ đúng kỳ hạn.",
+      "address": "Căn hộ 8.01 CC Imperial, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Trương Bảo Châu",
+      "phoneNumber": "0918732154"
+    },
+    {
+      "id": "HH013",
+      "notes": "Thanh niên lưu trú tự do nghề nghiệp.",
+      "address": "22 Hẻm Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Huỳnh Tấn Sang",
+      "phoneNumber": "0987114422"
+    },
+    {
+      "id": "HH014",
+      "notes": "Hộ thường trú gốc đồng bào thiểu số nỗ lực kinh tế.",
+      "address": "76 Đường Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "headerName": "Nông Văn Bình",
+      "phoneNumber": "0944321012"
+    }
+  ],
+  "gisFeatures": [
+    {
+      "id": "F001",
+      "lat": 10.802,
+      "lng": 106.725,
+      "geom": "POINT(106.7250 10.8020)",
+      "name": "Trụ sở Ban Điều Hành KP3",
+      "type": "headquarters"
+    },
+    {
+      "id": "F002",
+      "lat": 10.8015,
+      "lng": 106.7225,
+      "geom": "POINT(106.7225 10.8015)",
+      "name": "Camera AI An Ninh 1 - Ngã 4 Thảo Điền",
+      "type": "camera"
+    },
+    {
+      "id": "F003",
+      "lat": 10.8035,
+      "lng": 106.7265,
+      "geom": "POINT(106.7265 10.8035)",
+      "name": "Camera AI An Ninh 2 - Đầu hẻm Quốc Hương",
+      "type": "camera"
+    },
+    {
+      "id": "F004",
+      "lat": 10.8055,
+      "lng": 106.7245,
+      "geom": "POINT(106.7245 10.8055)",
+      "name": "Nhà Văn hóa Thể thao Khu phố 3",
+      "type": "culture_house"
+    },
+    {
+      "id": "F005",
+      "lat": 10.804,
+      "lng": 106.7235,
+      "geom": "POINT(106.7235 10.8040)",
+      "name": "Điểm có nguy cơ mất ATTT Hẻm Bách Hóa",
+      "type": "hotspot"
+    },
+    {
+      "id": "F006",
+      "lat": 10.803,
+      "lng": 106.7285,
+      "geom": "POINT(106.7285 10.8030)",
+      "name": "Trạm y tế lưu động Phường An Phú",
+      "type": "medical"
+    },
+    {
+      "id": "F007",
+      "lat": 10.8065,
+      "lng": 106.7215,
+      "geom": "POINT(106.7215 10.8065)",
+      "name": "Trường Tiểu Học Thảo Điền",
+      "type": "school"
+    }
+  ],
+  "gisSubzones": [
+    {
+      "id": "SZ003",
+      "geom": "POLYGON((106.720 10.800, 106.723 10.800, 106.723 10.803, 106.720 10.803, 106.720 10.800))",
+      "name": "Tổ dân phố 3",
+      "color": "#10b981",
+      "leaderName": "Nguyễn Lâm Hùng"
+    },
+    {
+      "id": "SZ004",
+      "geom": "POLYGON((106.723 10.800, 106.726 10.800, 106.726 10.803, 106.723 10.803, 106.723 10.800))",
+      "name": "Tổ dân phố 4",
+      "color": "#3b82f6",
+      "leaderName": "Trần Thị Mai"
+    },
+    {
+      "id": "SZ008",
+      "geom": "POLYGON((106.726 10.803, 106.730 10.803, 106.730 10.807, 106.726 10.807, 106.726 10.803))",
+      "name": "Tổ dân phố 8",
+      "color": "#f59e0b",
+      "leaderName": "Lê Sĩ Hoàng"
+    },
+    {
+      "id": "SZ010",
+      "geom": "POLYGON((106.720 10.803, 106.724 10.803, 106.724 10.807, 106.720 10.807, 106.720 10.803))",
+      "name": "Tổ dân phố 10",
+      "color": "#ec4899",
+      "leaderName": "Vương Đình Bằng"
+    }
+  ],
+  "gisHouseholds": [
+    {
+      "id": "HH001",
+      "lat": 10.802105,
+      "lng": 106.721543,
+      "geom": "POINT(106.721543 10.802105)",
+      "notes": "Hộ gia đình cách mạng tiêu biểu tại khu phố.",
+      "address": "12 Thảo Điền, Phường An Phú, TP. Hồ Chí Minh",
+      "gisCode": "KP3-HH001",
+      "groupNDTQ": "Tổ 3",
+      "headerName": "Nguyễn Lâm Hùng",
+      "phoneNumber": "0908123456"
+    },
+    {
+      "id": "HH002",
+      "lat": 10.803241,
+      "lng": 106.725892,
+      "geom": "POINT(106.725892 10.803241)",
+      "notes": "Hộ gia đình hoạt động tích cực, làm nòng cốt công tác phụ nữ hẻm.",
+      "address": "45/2 Đường 5, Phường An Phú, TP. Hồ Chí Minh",
+      "gisCode": "KP3-HH002",
+      "groupNDTQ": "Tổ 4",
+      "headerName": "Trần Thị Mai",
+      "phoneNumber": "0967888999"
+    },
+    {
+      "id": "HH003",
+      "lat": 10.805123,
+      "lng": 106.728905,
+      "geom": "POINT(106.728905 10.805123)",
+      "notes": "Cư dân trẻ văn minh, Đảng viên về giữ liên lạc 213.",
+      "address": "Căn hộ 12.04 CC The Vista, Phường An Phú, TP. Hồ Chí Minh",
+      "gisCode": "KP3-HH003",
+      "groupNDTQ": "Tổ 4",
+      "headerName": "Phạm Ngọc Anh",
+      "phoneNumber": "0934112233"
+    },
+    {
+      "id": "HH004",
+      "lat": 10.801567,
+      "lng": 106.723145,
+      "geom": "POINT(106.723145 10.801567)",
+      "notes": "Gia cảnh khó khăn, cần theo dõi chế độ chính sách người khuyết tật và trẻ em.",
+      "address": "89/10 Đường Quốc Hương, Phường An Phú, TP. Hồ Chí Minh",
+      "gisCode": "KP3-HH004",
+      "groupNDTQ": "Tổ 10",
+      "headerName": "Vương Đình Bằng",
+      "phoneNumber": "0909555222"
+    },
+    {
+      "id": "HH005",
+      "lat": 10.804198,
+      "lng": 106.727102,
+      "geom": "POINT(106.727102 10.804198)",
+      "notes": "Gia đình đảng viên gương mẫu tiêu biểu.",
+      "address": "15 Ba Son, Phường An Phú, TP. Hồ Chí Minh",
+      "gisCode": "KP3-HH005",
+      "groupNDTQ": "Tổ 3",
+      "headerName": "Lê Sĩ Hoàng",
+      "phoneNumber": "0903998877"
+    },
+    {
+      "id": "HH006",
+      "lat": 10.80289,
+      "lng": 106.724891,
+      "geom": "POINT(106.724891 10.802890)",
+      "notes": "Cán bộ công an khu vực lưu trú.",
+      "address": "7 Lương Định Của, Phường An Phú, TP. Hồ Chí Minh",
+      "gisCode": "KP3-HH006",
+      "groupNDTQ": "Tổ 8",
+      "headerName": "Trần Anh Quốc",
+      "phoneNumber": "0977223344"
+    }
+  ],
+  "availableNDTQs": [
+    "Tổ 1",
+    "Tổ 2",
+    "Tổ 3",
+    "Tổ 4",
+    "Tổ 5",
+    "Tổ 6",
+    "Tổ 7",
+    "Tổ 8",
+    "Tổ 9",
+    "Tổ 10",
+    "Tổ 11",
+    "Tổ 12",
+    "Tổ 13",
+    "Tổ 14"
+  ],
+  "availableGroups": [
+    "Đảng viên",
+    "Đảng viên 213",
+    "CCB",
+    "Phụ nữ",
+    "Thanh niên",
+    "Chữ thập đỏ",
+    "Ban điều hành",
+    "Ban công tác Mặt trận",
+    "An ninh trật tự cơ sở",
+    "Cộng tác viên dân số",
+    "Tổ công nghệ số cộng đồng"
+  ],
+  "availablePolicies": [
+    "Hộ nghèo",
+    "Hộ cận nghèo",
+    "Người khuyết tật",
+    "Trẻ em",
+    "Thương binh",
+    "Bệnh binh",
+    "Thân nhân liệt sĩ",
+    "Người có công"
+  ],
+  "officialDocuments": [
+    {
+      "id": "doc_1",
+      "type": "incoming",
+      "year": 2025,
+      "month": 6,
+      "title": "Nghị quyết Đại hội Đảng bộ Phường An Phú nhiệm kỳ 2025 - 2030",
+      "summary": "Nghị quyết chỉ đạo tập trung nâng cao chất lượng cuộc sống dân cư và hiện đại hóa quản lý tại các khu phố trực thuộc.",
+      "category": "Đảng",
+      "docNumber": "02-NQ/ĐU",
+      "dateIssued": "2025-06-15",
+      "externalFileName": "Nghi_quyet_ĐU_Phuong_2025.pdf",
+      "externalFileSize": "2.4 MB",
+      "externalFileType": "application/pdf",
+      "senderOrReceiver": "Đảng ủy Phường An Phú"
+    },
+    {
+      "id": "doc_2",
+      "type": "incoming",
+      "year": 2026,
+      "month": 2,
+      "title": "Chỉ thị số 05-CT/TW về Đẩy mạnh học tập và làm theo tư tưởng đạo đức Hồ Chí Minh",
+      "summary": "Văn bản hướng dẫn tăng cường triển khai các phong trào thi đua gương mẫu đạo đức lối sống trong Đảng viên hẻm khu phố.",
+      "category": "Đảng",
+      "docNumber": "05-CT/TW",
+      "dateIssued": "2026-02-10",
+      "externalFileName": "Chi_thi_05_TW_2026.docx",
+      "externalFileSize": "1.1 MB",
+      "externalFileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "senderOrReceiver": "Ban Chấp hành Trung ương"
+    },
+    {
+      "id": "doc_3",
+      "type": "incoming",
+      "year": 2026,
+      "month": 1,
+      "title": "Quyết định phê duyệt chỉ tiêu giảm nghèo bền vững phường An Phú năm 2026",
+      "summary": "Giao chỉ tiêu rà soát và hỗ trợ hộ cận nghèo, hộ khuyết tật tại Khu phố 3, hỗ trợ đào tạo nghề và an sinh xã hội.",
+      "category": "Chính quyền",
+      "docNumber": "88/QĐ-UBND",
+      "dateIssued": "2026-01-18",
+      "externalFileName": "Quyet_dinh_88_QĐ_UBND.pdf",
+      "externalFileSize": "1.5 MB",
+      "externalFileType": "application/pdf",
+      "senderOrReceiver": "Ủy ban nhân dân Phường An Phú"
+    },
+    {
+      "id": "doc_4",
+      "type": "incoming",
+      "year": 2026,
+      "month": 3,
+      "title": "Kế hoạch phối hợp tuyên truyền Luật Nghĩa vụ Quân sự năm 2026",
+      "summary": "Phối hợp giữa chính quyền địa bàn, khu đội trưởng và gia đình rà soát vận động thanh niên tuổi 17 tham gia khám sơ tuyển.",
+      "category": "Chính quyền",
+      "docNumber": "14/KH-UBND",
+      "dateIssued": "2026-03-05",
+      "externalFileName": "Ke_hoach_14_KH_UBND.pdf",
+      "externalFileSize": "980 KB",
+      "externalFileType": "application/pdf",
+      "senderOrReceiver": "Ủy ban nhân dân Phường An Phú"
+    },
+    {
+      "id": "doc_5",
+      "type": "incoming",
+      "year": 2025,
+      "month": 10,
+      "title": "Thông tri hướng dẫn tổ chức Ngày hội Đại đoàn kết toàn dân tộc năm 2025",
+      "summary": "Nội dung chuẩn bị văn nghệ, tuyên dương gia đình văn hóa tiêu biểu và đóng góp quỹ vì người nghèo tại văn phòng Khu phố.",
+      "category": "Mặt trận và các đoàn thể",
+      "docNumber": "12-TT/MTTQ",
+      "dateIssued": "2025-10-12",
+      "externalFileName": "Thong_tri_12_MTTQ.pdf",
+      "externalFileSize": "1.8 MB",
+      "externalFileType": "application/pdf",
+      "senderOrReceiver": "Ủy ban Mặt trận Tổ quốc Quận 2 cũ"
+    },
+    {
+      "id": "doc_6",
+      "type": "incoming",
+      "year": 2026,
+      "month": 5,
+      "title": "Báo cáo sơ kết hoạt động phong trào hiến máu nhân đạo năm 2026",
+      "summary": "Ghi nhận và biểu dương khen thưởng các hộ gia đình văn hóa tại khu phố 3 tham gia hiến máu vượt chỉ tiêu giao.",
+      "category": "Mặt trận và các đoàn thể",
+      "docNumber": "04-BC/HCTĐ",
+      "dateIssued": "2026-05-15",
+      "externalFileName": "Bao_cao_04_BC_HCTĐ.docx",
+      "externalFileSize": "650 KB",
+      "externalFileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "senderOrReceiver": "Hội Chữ thập đỏ Phường An Phú"
+    },
+    {
+      "id": "doc_7",
+      "type": "outgoing",
+      "year": 2026,
+      "month": 5,
+      "title": "Báo cáo chính trị xây dựng Chi bộ Khu phố 3 trong sạch vững mạnh năm 2026",
+      "summary": "Báo cáo phân tích chất lượng Đảng viên đang sinh hoạt 76 và Đảng viên 213 hoạt động cư trú tại hẻm, định hướng quý 3.",
+      "category": "Đảng",
+      "docNumber": "09-BC/CB",
+      "dateIssued": "2026-05-20",
+      "externalFileName": "Bao_cao_xay_dung_chi_bo_KP3.docx",
+      "externalFileSize": "1.3 MB",
+      "externalFileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "senderOrReceiver": "Đảng bộ Phường An Phú"
+    },
+    {
+      "id": "doc_8",
+      "type": "outgoing",
+      "year": 2026,
+      "month": 4,
+      "title": "Tờ trình xin hỗ trợ kinh phí sửa chữa Văn phòng điều hành Khu phố 3",
+      "summary": "Đề xuất tháo dỡ lớp mái tôn cũ bị dột, thay mới hệ thống bảng hiệu khu phố văn hóa 3 và trang bị thêm bàn ghế hội họp.",
+      "category": "Chính quyền",
+      "docNumber": "03-TTr/BDH",
+      "dateIssued": "2026-04-02",
+      "externalFileName": "To_trinh_sua_chua_van_phong.docx",
+      "externalFileSize": "750 KB",
+      "externalFileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "senderOrReceiver": "Ủy ban nhân dân Phường An Phú"
+    },
+    {
+      "id": "doc_9",
+      "type": "outgoing",
+      "year": 2026,
+      "month": 5,
+      "title": "Kế hoạch tổ chức tết thiếu nhi 1/6 cho trẻ em có hoàn cảnh đặc biệt",
+      "summary": "Phối hợp với Chi hội phụ nữ và Đoàn thanh niên chuẩn bị quà bánh, trao học bổng gương sáng khuyến học cho các em nhỏ khó khăn.",
+      "category": "Mặt trận và các đoàn thể",
+      "docNumber": "02-KH/MT",
+      "dateIssued": "2026-05-22",
+      "externalFileName": "Ke_hoach_quoc_te_thieu_nhi_1_6.docx",
+      "externalFileSize": "1.1 MB",
+      "externalFileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "senderOrReceiver": "Đảng ủy - Ủy ban Mặt trận Tổ quốc"
+    }
+  ]
+}

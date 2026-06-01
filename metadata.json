@@ -1,0 +1,6 @@
+{
+  "name": "Smart Khu Phố",
+  "description": "Hệ thống quản lý hành chính, tổng hợp dân cư, đoàn thể, lịch công tác và soạn thảo văn bản hành chính hỗ trợ bởi AI cho cán bộ khu phố Việt Nam",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
