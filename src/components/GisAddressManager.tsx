@@ -1526,7 +1526,7 @@ export default function GisAddressManager({ activeRole, onRefresh, currentUser, 
     if (!aiPrompt.trim()) return;
     setIsAiThinking(true);
     setAiAnalysisResult("");
-    setAiStatusMessage("Đang gọi động cơ Gemini-3.5-flash rà soát PostGIS tables...");
+    setAiStatusMessage("Đang gọi động cơ Gemini-2.5-flash rà soát PostGIS tables...");
 
     try {
       const res = await fetch("/api/gis/ai-command", {

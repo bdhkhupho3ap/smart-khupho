@@ -383,7 +383,7 @@ export default function ResidentsManager({ residents, households, activeRole, on
         fileContent = await base64Promise;
       }
 
-      setAiLoadingMessage("Đang gửi văn bản chuyển giao bộ xử lý AI Gemini 3.5...");
+      setAiLoadingMessage("Đang gửi văn bản chuyển giao bộ xử lý AI Gemini 2.5...");
 
       // Update loading message periodically for dynamic experience
       const intervals = [

@@ -262,7 +262,7 @@ app.use((req, res, next) => {
 });
 
 // Initialize GoogleGenAI SDK
-const ai = new GoogleGenAI({
+export let ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
   httpOptions: {
     headers: {
@@ -271,9 +271,95 @@ const ai = new GoogleGenAI({
   },
 });
 
+export function updateAiInstance(apiKey: string) {
+  if (!apiKey || apiKey.trim() === "") return;
+  process.env.GEMINI_API_KEY = apiKey.trim();
+  ai = new GoogleGenAI({
+    apiKey: apiKey.trim(),
+    httpOptions: {
+      headers: {
+        "User-Agent": "aistudio-build",
+      },
+    },
+  });
+  console.log("GoogleGenAI instance successfully updated with dynamic key.");
+}
+
+// Middleware to dynamically synchronize Gemini AI Key with database configurations
+app.use((req, res, next) => {
+  try {
+    const db = loadDatabase();
+    if (db.geminiApiKey && db.geminiApiKey.trim() !== "" && db.geminiApiKey.trim() !== process.env.GEMINI_API_KEY) {
+      updateAiInstance(db.geminiApiKey);
+    }
+  } catch (err) {
+    console.warn("Dynamic API key check bypassed:", err);
+  }
+  next();
+});
+
 // API Routes
 app.get("/api/health", (req, res) => {
   res.json({ status: "ok", time: new Date() });
+});
+
+app.get("/api/config/gemini-key", (req, res) => {
+  const db = loadDatabase();
+  const rawKey = db.geminiApiKey || process.env.GEMINI_API_KEY || "";
+  let masked = "";
+  if (rawKey) {
+    if (rawKey.length > 8) {
+      masked = rawKey.substring(0, 4) + "..." + rawKey.substring(rawKey.length - 4);
+    } else {
+      masked = "********";
+    }
+  }
+  res.json({
+    hasKey: !!rawKey,
+    maskedKey: masked
+  });
+});
+
+app.post("/api/config/gemini-key", (req, res) => {
+  const emailHeader = req.headers["x-user-email"] as string;
+  const roleHeader = req.headers["x-user-role"] as string;
+  const db = loadDatabase();
+
+  const normalizedEmail = (emailHeader || "").toString().toLowerCase().trim();
+  const requester = db.accounts?.find(
+    (acc: any) => acc.email && acc.email.toLowerCase().trim() === normalizedEmail
+  );
+
+  const roleStr = roleHeader ? decodeURIComponent(roleHeader).trim() : (requester ? requester.role : "");
+  const isAuthorized = ["Super Admin", "Super Mod", "Bí thư Chi bộ", "Trưởng Khu phố", "Trưởng Ban điều hành"].includes(roleStr) || normalizedEmail === "admin";
+
+  if (!isAuthorized) {
+    return res.status(403).json({ error: "Phân quyền: Chỉ quản trị viên cấp cao mới có quyền cấu hình API Key hệ thống!" });
+  }
+
+  const { apiKey } = req.body;
+  if (apiKey === undefined) {
+    return res.status(400).json({ error: "Yêu cầu cung cấp tham số apiKey!" });
+  }
+
+  db.geminiApiKey = apiKey.trim();
+  
+  // Log action
+  db.logs.unshift({
+    id: `log_${Date.now()}`,
+    userName: requester ? requester.fullName : "Super Admin",
+    userRole: roleStr || "Super Admin",
+    action: apiKey.trim() ? "Cập nhật Gemini API Key" : "Gỡ bỏ Gemini API Key",
+    timestamp: new Date().toISOString(),
+    details: apiKey.trim() 
+      ? `Đã cập nhật khóa bảo mật API key của Google AI Studio để vận hành các dịch vụ thông minh của app.`
+      : `Đã xóa khóa cấu hình Gemini API key khỏi cơ sở dữ liệu.`
+  });
+
+  saveDatabase(db);
+  updateAiInstance(db.geminiApiKey);
+
+  res.json({ success: true, message: "Cập nhật cấu hình Gemini API Key thành công!" });
 });
 
 app.get("/api/supabase/status", (req, res) => {
@@ -1855,7 +1941,7 @@ Hãy dựa vào mẫu định dạng cơ bản sau đây:\n"""\n${structure}\n""
 Hãy viết nội dung hoàn chỉnh, triển khai các chi tiết một cách dài dặn, mạch lạc, rực rỡ và chuyên nghiệp về mặt hành chính chính sách Việt Nam. Hãy chèn nội dung đầy đủ thay vì chỉ ghi placeholder chung chung. Trả về kết quả dưới dạng Markdown đẹp mắt, văn minh, có tiêu đề rành mạch, dễ đọc.`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-3.5-flash",
+        model: "gemini-2.5-flash",
         contents: systemPrompt,
       });
 
@@ -1970,7 +2056,7 @@ ${prompt}
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: modelContents,
     });
 
@@ -2043,7 +2129,7 @@ Hãy thực hiện đối chiếu thông tin, thiết lập Tổ mới và trả
 `;
 
     const aiRes = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
@@ -2201,7 +2287,7 @@ Hãy lọc sạch cấu trúc và trả về danh sách dướ định dạng JS
 
     // Call Gemini generateContent with responseSchema
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: {
         parts: [
           { text: systemPrompt },
@@ -2346,7 +2432,7 @@ Hãy trình bày sản phẩm đầu ra dưới định dạng Markdown đẹp m
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: modelContents,
     });
 
@@ -2441,7 +2527,7 @@ Dữ liệu đầu vào:
 Hãy điền các thông tin này vào mẫu một cách logic, chính xác, trang trọng và đúng phong cách văn bản hành chính Việt Nam. Trả về toàn bộ nội dung văn bản hoàn chỉnh sau khi đã được điền đầy đủ (định dạng Markdown đẹp mắt, giữ nguyên tiêu đề, bố cục của văn bản gốc).`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: systemPromptMessage,
     });
 
@@ -2470,7 +2556,7 @@ Hãy trả về kết quả dưới dạng một mảng JSON các đối tượn
 Không viết bất kỳ văn bản giải thích nào ngoài mảng JSON hợp lệ này.`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: systemPrompt,
       config: {
         responseMimeType: "application/json",
@@ -3051,7 +3137,7 @@ app.post("/api/gis/ai-command", async (req, res) => {
     ].join("\n");
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: systemPromptMessage,
     });
 
@@ -3217,7 +3303,7 @@ app.post("/api/gis/ai-suggest-address", async (req, res) => {
     ].join("\n");
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: systemPromptMessage,
     });
 

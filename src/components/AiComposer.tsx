@@ -120,7 +120,7 @@ export default function AiComposer({ templates, documents, activeRole, onRefresh
     setAiDraft("");
     
     const phases = [
-      "Đang kết nối hệ thống trí tuệ nhân tạo Gemini 3.5-flash...",
+      "Đang kết nối hệ thống trí tuệ nhân tạo Gemini 2.5-flash...",
       "Đang phân tích ý định và câu lệnh của cán bộ...",
       "Đang đọc và khai thác tệp tin đính kèm (nếu có)...",
       "Đang định dạng bài viết chuẩn Nghị định 30/2020/NĐ-CP...",
@@ -255,7 +255,7 @@ export default function AiComposer({ templates, documents, activeRole, onRefresh
     const phases = [
       "Đang tiếp nhận tệp tin đa định dạng...",
       "Đang giải mã cấu trúc tệp tin (trích xuất ký tự thô)...",
-      "Đang định dạng phân dữ liệu bằng hệ tư duy Gemini 3.5...",
+      "Đang định dạng phân dữ liệu bằng hệ tư duy Gemini 2.5...",
       "Sắp xếp thứ tự thời gian, sự kiện và nhân sự được đề cập lịch trình...",
       "Đang đúc kết báo cáo tổng hòa, phân cực ý chính tổ dân bàn..."
     ];
@@ -552,7 +552,7 @@ export default function AiComposer({ templates, documents, activeRole, onRefresh
                   <div className="bg-gradient-to-r from-emerald-500/10 to-teal-500/5 p-4 rounded-xl border border-emerald-100/50 space-y-2 relative overflow-hidden">
                     <div className="flex items-center gap-2">
                       <div className="p-1 px-2.5 rounded-full bg-emerald-600 text-white text-[9px] font-extrabold shadow-xs flex items-center gap-1 animate-pulse">
-                        <Sparkles className="h-3 w-3" /> Gemini 3.5 Sẵn sàng
+                        <Sparkles className="h-3 w-3" /> Gemini 2.5 Sẵn sàng
                       </div>
                       <span className="text-[9px] text-emerald-700 font-bold uppercase tracking-wider">Trợ lý Cán bộ Khu phố</span>
                     </div>
@@ -947,7 +947,7 @@ export default function AiComposer({ templates, documents, activeRole, onRefresh
             </div>
             <div className="space-y-2.5 max-w-sm">
               <h4 className="text-xs font-extrabold text-gray-800 uppercase tracking-widest flex items-center justify-center gap-1">
-                🤖 Trợ lý Trí tuệ Nhân tạo Gemini 3.5
+                🤖 Trợ lý Trí tuệ Nhân tạo Gemini 2.5
               </h4>
               <p className="text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded border border-emerald-100 italic">
                 {currentGenerationPhase}
