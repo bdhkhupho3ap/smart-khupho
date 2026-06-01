@@ -1,2 +1,3 @@
-const app = require("../dist/server.cjs").default;
-module.exports = app;
+import appInstance from "../dist/server.cjs";
+const app = appInstance.default || appInstance;
+export default app;
