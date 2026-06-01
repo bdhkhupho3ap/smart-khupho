@@ -2538,6 +2538,50 @@ Hãy điền các thông tin này vào mẫu một cách logic, chính xác, tra
   }
 });
 
+app.post("/api/gemini/summarize-notes", async (req, res) => {
+  const { notes } = req.body;
+  if (!notes) return res.status(400).json({ error: "Missing notes" });
+
+  try {
+    const systemPrompt = `Bạn là trợ lý AI chuyên tóm tắt ghi chú dân cư. Hãy tóm tắt thật ngắn gọn (khoảng 10-15 từ) nội dung sau đây để hiển thị bảng dữ liệu:
+"${notes}"`;
+
+    const response = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: systemPrompt,
+    });
+
+    res.json({ success: true, summary: response.text });
+  } catch (err: any) {
+    console.error("Lỗi AI tóm tắt ghi chú:", err);
+    res.status(500).json({ error: "Thất bại: " + err.message });
+  }
+});
+
+app.post("/api/gemini/report-tasks", async (req, res) => {
+  const { schedules } = req.body;
+  
+  try {
+    const systemPrompt = `Bạn là thư ký hành chính của Tổ dân phố. Dưới đây là dữ liệu công việc (JSON):
+${JSON.stringify(schedules || [])}
+
+Viết một báo cáo tiến độ chuyên nghiệp (trình bày Markdown đẹp mắt) gồm 3 phần:
+1. Việc Cần Làm
+2. Việc Đang Làm
+3. Cảnh Báo Quá Hạn Nộp (nếu có)
+Tập trung vào những nhiệm vụ chưa hoàn thành hoặc trễ hạn.`;
+
+    const response = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: systemPrompt,
+    });
+
+    res.json({ success: true, report: response.text });
+  } catch (err: any) {
+    console.error("Lỗi AI báo cáo tiến độ:", err);
+    res.status(500).json({ error: "Thất bại: " + err.message });
+  }
+});
 app.post("/api/gemini/suggest-tasks-from-doc", async (req, res) => {
   const { title, description, externalDocContent } = req.body;
 
